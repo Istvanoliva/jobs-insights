@@ -53,7 +53,7 @@ def get_max_salary(path):
 
 def get_min_salary(path):
     jobs_list = read(path)
-    min_salary = []
+    min_salary = list()
 
     for salary in jobs_list:
         if salary["min_salary"] and salary["min_salary"].isdigit():
