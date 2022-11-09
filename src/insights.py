@@ -73,6 +73,7 @@ def matches_salary_range(job, salary):
         raise ValueError("salary is not a number")
     return job["min_salary"] <= salary <= job["max_salary"]
 
+
 def filter_by_salary_range(jobs, salary):
     filtered_jobs = list()
 
@@ -84,4 +85,3 @@ def filter_by_salary_range(jobs, salary):
             print(error)
 
     return filtered_jobs
-
