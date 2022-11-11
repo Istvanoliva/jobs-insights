@@ -16,3 +16,4 @@ def test_sort_by_criteria():
     expected = get_max_salary(path)
     result = jobs_list[0]["max_salary"]
     assert result == str(expected)
+    
